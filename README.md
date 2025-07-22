@@ -44,6 +44,7 @@ Las funcionalidades disponibles son:
 - 📤 Subir un fichero al servidor, enviando nombre y contenido.
 
 ---
+
 ## 🚀 Funcionalidades destacadas
 
 - Listado dinámico de archivos disponibles en el servidor.
@@ -69,7 +70,7 @@ Las funcionalidades disponibles son:
 
 - 🔀 Diferencias entre **Java** y **Kotlin** dificultan la integración directa de estructuras de datos.
 - ⏳ Uso de **corutinas** en operaciones de red puede provocar errores si no se gestionan bien.
-- 📂 Problemas con flujos de datos: algunos archivos podían recibirse vacíos o incompletos.
+- 📂 Problemas con flujos de datos: algunos archivos podían recibirse vacíos o con tamaños incorrectos.
 - 📱 Restricciones de almacenamiento en Android obligaron a usar **Scoped Storage** y APIs como `contentResolver.query()`.
 
 ---
@@ -97,7 +98,7 @@ Este proyecto incluye dos partes:
    ```bash
    git clone https://github.com/mariarosete/servidorArchivos.git
    ```
-   
+
 2. Abre el proyecto en tu entorno Java preferido (por ejemplo, **Eclipse**, **IntelliJ IDEA** o **NetBeans**).
 3. Localiza la clase `ServidorFicheros.java` en el paquete `servidor` (ruta: `src/servidor/ServidorFicheros.java`).
 4. ▶️ Ejecuta con clic derecho sobre ServidorFicheros.java > Run As > Java Application
@@ -122,16 +123,16 @@ Este proyecto incluye dos partes:
 2. Abre la carpeta del cliente en **Android Studio**.
 3. En el archivo `MainActivity.kt`, **reemplaza la dirección IP** por la IP local de tu ordenador (donde se ejecuta el servidor Java).  
 
- 📌 Por ejemplo:
+📌 Por ejemplo:
 
-   ```kotlin
-   private val ip = "XXX.XXX.X.XXX"
-   ```
+```kotlin
+private val ip = "XXX.XXX.X.XXX"
+```
 
 4. Conecta un dispositivo físico o usa un emulador.
 5. Ejecuta el proyecto (▶️ Run).
 
-   📌 **Importante**:
+📌 **Importante**:
 
 - El dispositivo Android y el servidor Java deben estar conectados a la **misma red local**.
 - Si estás usando un **emulador**, asegúrate de que tiene acceso a la red local.
@@ -139,26 +140,20 @@ Este proyecto incluye dos partes:
   - `ipconfig` en **Windows**
   - `ifconfig` o `ip a` en **Linux/macOS**
 
- 🔗 [Repositorio Servidor Archivos (Frontend)](https://github.com/mariarosete/servidorArchivos/tree/main/front)  
+🔗 [Repositorio Servidor Archivos (Frontend)](https://github.com/mariarosete/servidorArchivos/tree/main/front)
 
 ---
 
 ## 📸 Capturas de pantalla
 
 | 🧾 Pantalla de inicio | 📁 Archivos disponibles |
-| -------------------- | ---------------------- |
-|                      |                        |
+|----------------------|--------------------------|
+| ![Inicio](https://github.com/mariarosete/servidorArchivos/blob/main/screenshots/Inicio.png?raw=true) | ![Listado](https://github.com/mariarosete/servidorArchivos/blob/main/screenshots/Listado.png?raw=true) |
 
-| 📤 Selección y subida | 📥 Descarga desde Spinner |
-| -------------------- | ------------------------ |
-|                      |                          |
+| 📥 Descarga desde Spinner | 📤 Selección y subida |
+|------------------------|---------------------------|
+| ![Spinner](https://github.com/mariarosete/servidorArchivos/blob/main/screenshots/spinner.png?raw=true) | ![Subida](https://github.com/mariarosete/servidorArchivos/blob/main/screenshots/Subida.png?raw=true) |
 
----
-
-## 🔮 Próximas mejoras
-
-- Manejo de errores más avanzado.
-- Indicadores de progreso en tiempo real durante la transferencia.
 
 ---
 
