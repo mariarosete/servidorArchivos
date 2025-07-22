@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ServidorArchivos</string>
+    <string name="bienvenido_al_cliente_de_servidor_de_archivos">Bienvenido al cliente de servidor de archivos</string>
+    <string name="ingrese_nombre_del_archivo">Ingrese nombre del archivo</string>
+    <string name="listar_archivos">Listar Archivos</string>
+    <string name="descargar_archivo">Descargar Archivo</string>
+    <string name="subir_archivo">Subir Archivo</string>
+    <string name="seleccionar_archivo">Seleccionar Archivo</string>
+    <string name="subir_un_archivo_al_servidor">Subir un archivo al servidor:</string>
+    <string name="ingrese_el_nombre_del_archivo">Ingrese el nombre del archivo</string>
+    <string name="nombre_del_archivo_en_el_servidor">Nombre del archivo en el servidor:</string>
+    <string name="bienvenid_al_servidor_de_archivos">Bienvenid@ al servidor de archivos</string>
+    <string name="archivos_disponibles">Archivos disponibles:</string>
+    <string name="no_hay_archivos_listados">(No hay archivos listados)</string>
+    <string name="archivo_a_descargar">Archivo a descargar:</string>
+    <string name="listar">LISTAR</string>
+    <string name="descargar">DESCARGAR</string>
+    <string name="ning_n_archivo_seleccionado">Ningún archivo seleccionado</string>
+    <string name="seleccionar">SELECCIONAR</string>
+    <string name="subir">SUBIR</string>
+</resources>

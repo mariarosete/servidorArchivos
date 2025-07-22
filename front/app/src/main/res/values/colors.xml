@@ -1,0 +1,28 @@
+<resources>
+    <color name="primary">#3A3A3C</color> <!-- Negro suave -->
+    <color name="primaryVariant">#1F1F1F</color>
+    <color name="secondary">#FF9800</color> <!-- Naranja -->
+    <color name="secondaryVariant">#F57C00</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Botones -->
+    <color name="buttonPrimaryBackground">#FF9800</color>
+    <color name="buttonPrimaryText">#FFFFFF</color>
+    <color name="buttonSecondaryBackground">#EEEEEE</color>
+    <color name="buttonSecondaryText">#333333</color>
+
+    <!-- Fondo general -->
+    <color name="backgroundLight">#FDF6EC</color>
+
+    <!-- Tarjetas -->
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="cardStroke">#DDDDDD</color>
+
+    <!-- Texto -->
+    <color name="textSecondary">#757575</color>
+
+    <color name="bordeTarjeta">#D0CFCB</color> <!-- Beige grisáceo suave -->
+    <color name="spinnerItemHover">#FFF1E0</color> <!-- Beige anaranjado muy claro -->
+
+</resources>

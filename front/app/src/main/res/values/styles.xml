@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ServidorArchivos" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primaryVariant</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondaryVariant</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:statusBarColor">@color/primaryVariant</item>
+        <item name="android:windowBackground">@color/backgroundLight</item>
+    </style>
+
+    <style name="PrimaryButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/buttonPrimaryBackground</item>
+        <item name="android:textColor">@color/buttonPrimaryText</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <style name="SecondaryButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:backgroundTint">@color/buttonSecondaryBackground</item>
+        <item name="android:textColor">@color/buttonSecondaryText</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+</resources>
