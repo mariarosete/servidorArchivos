@@ -2,8 +2,8 @@
 
 ![Banner Servidor](https://github.com/mariarosete/servidorArchivos/blob/main/bannerServidorArchivos.png?raw=true)
 
-Aplicación de gestión de archivos en red local desarrollada con una interfaz Android moderna y un servidor TCP en Java.  
-Permite subir, descargar y visualizar archivos desde un dispositivo móvil conectado a la misma red.
+Desarrollo de servidor backend en Java utilizando sockets TCP para la gestión de conexiones concurrentes y transferencia de archivos en red local. 
+Implementa arquitectura cliente-servidor con cliente Android en Kotlin que consume el servicio.
 
 ---
 
