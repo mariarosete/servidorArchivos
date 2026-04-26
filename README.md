@@ -11,7 +11,7 @@ Permite subir, descargar y visualizar archivos desde un dispositivo móvil conec
 
 Puedes ver el funcionamiento de la aplicación aquí:
 
-👉 http://localhost:5173/src/assets/Servidor.mp4
+👉 https://mariarosete.vercel.app/assets/Servidor-I_unzXxa.mp4
 
 
 ---
