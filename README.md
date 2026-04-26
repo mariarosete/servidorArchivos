@@ -7,7 +7,18 @@ Permite subir, descargar y visualizar archivos desde un dispositivo móvil conec
 
 ---
 
-- [📁 Servidor de Archivos – Cliente Android + Servidor TCP](#-servidor-de-archivos--cliente-android--servidor-tcp)
+## 🎥 Demo en vídeo
+
+Puedes ver el funcionamiento de la aplicación aquí:
+
+👉 http://localhost:5173/src/assets/Servidor.mp4
+
+
+---
+
+## 📑 Tabla de contenidos
+
+- [🎥 Demo en vídeo](#-demo-en-vídeo)
 - [🛠 Tecnologías utilizadas](#-tecnologías-utilizadas)
 - [🎯 Objetivos del proyecto](#-objetivos-del-proyecto)
 - [🚀 Funcionalidades destacadas](#-funcionalidades-destacadas)
