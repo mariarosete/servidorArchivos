@@ -5,6 +5,11 @@
 Desarrollo de servidor backend en Java utilizando sockets TCP para la gestión de conexiones concurrentes y transferencia de archivos en red local. 
 Implementa arquitectura cliente-servidor con cliente Android en Kotlin que consume el servicio.
 
+Incluye:
+- 🖥 Servidor en Java
+- 📱 Cliente Android en Kotlin
+- 📡 Comunicación en tiempo real en red local
+
 ---
 
 ## 🎥 Demo en vídeo
@@ -12,25 +17,7 @@ Implementa arquitectura cliente-servidor con cliente Android en Kotlin que consu
 Puedes ver el funcionamiento de la aplicación aquí:
 
 👉 https://mariarosete.vercel.app/assets/Servidor-I_unzXxa.mp4
-
-
 ---
-
-## 📑 Tabla de contenidos
-
-- [🎥 Demo en vídeo](#-demo-en-vídeo)
-- [🛠 Tecnologías utilizadas](#-tecnologías-utilizadas)
-- [🎯 Objetivos del proyecto](#-objetivos-del-proyecto)
-- [🚀 Funcionalidades destacadas](#-funcionalidades-destacadas)
-- [🏆 Logros obtenidos](#-logros-obtenidos)
-- [⚠️ Limitaciones encontradas](#️-limitaciones-encontradas)
-- [💡 Propuestas de mejora](#-propuestas-de-mejora)
-- [💻 Cómo ejecutar el proyecto](#-cómo-ejecutar-el-proyecto)
-- [📸 Capturas de pantalla](#-capturas-de-pantalla)
-- [📩 Contacto](#-contacto)
-
----
-
 ## 🛠 Tecnologías utilizadas
 
 ![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
@@ -41,58 +28,30 @@ Puedes ver el funcionamiento de la aplicación aquí:
 
 ---
 
-## 🎯 Objetivos del proyecto
+## 🎯 Objetivo del proyecto
 
-El objetivo de este proyecto es implementar un sistema de gestión de archivos en red local mediante **sockets TCP**, conectando:
+Implementar un sistema de gestión de archivos en red local mediante sockets TCP, conectando:
 
-- 🖥 Un **servidor** desarrollado en **Java** (Eclipse).
-- 📱 Un **cliente Android** desarrollado en **Kotlin** (Android Studio).
+- 🖥 Servidor en Java  
+- 📱 Cliente Android  
 
-Las funcionalidades disponibles son:
-
-- 📄 Listar los ficheros disponibles en el servidor.
-- 📥 Descargar un fichero desde el servidor por nombre.
-- 📤 Subir un fichero al servidor, enviando nombre y contenido.
+Funcionalidades principales:
+- 📄 Listado de archivos  
+- 📥 Descarga de ficheros  
+- 📤 Subida de archivos  
 
 ---
 
 ## 🚀 Funcionalidades destacadas
 
-- Listado dinámico de archivos disponibles en el servidor.
-- Descarga de ficheros seleccionados desde un Spinner.
-- Subida de cualquier tipo de archivo mediante el selector del sistema.
-- Indicador del archivo actualmente seleccionado.
-- Interfaz moderna basada en Material Design con estilos personalizados.
-- Soporte para múltiples tipos de archivo (`.pdf`, `.jpg`, `.png`, `.txt`, `.mp4`, etc.).
-- Botón de reinicio que limpia los campos y restablece el estado inicial.
+- Listado dinámico de archivos en el servidor  
+- Descarga desde el cliente Android  
+- Subida de archivos desde el dispositivo  
+- Soporte para múltiples formatos (`.pdf`, `.jpg`, `.txt`, `.mp4`, etc.)  
+- Interfaz moderna con Material Design  
 
 ---
-
-## 🏆 Logros obtenidos
-
-- Comunicación efectiva cliente-servidor mediante **Sockets TCP**.
-- Intercambio de datos binarios (archivos) con flujo controlado.
-- Listado remoto de archivos desde el cliente Android.
-- Subida y descarga de archivos entre dispositivos heterogéneos.
-
----
-
-## ⚠️ Limitaciones encontradas
-
-- 🔀 Diferencias entre **Java** y **Kotlin** dificultan la integración directa de estructuras de datos.
-- ⏳ Uso de **corutinas** en operaciones de red puede provocar errores si no se gestionan bien.
-- 📂 Problemas con flujos de datos: algunos archivos podían recibirse vacíos o con tamaños incorrectos.
-- 📱 Restricciones de almacenamiento en Android obligaron a usar **Scoped Storage** y APIs como `contentResolver.query()`.
-
----
-
-## 💡 Propuestas de mejora
-
-- 📁 Organización de archivos por carpetas en el servidor.
-- 📶 Indicadores visuales de progreso en subida/descarga.
-- 🔐 Soporte para autenticación de cliente y acceso restringido.
-
----
+⚠️ Este proyecto no está desplegado. Para probarlo es necesario ejecutar el servidor y el cliente en local.
 
 ## 💻 Cómo ejecutar el proyecto
 
@@ -150,6 +109,35 @@ private val ip = "XXX.XXX.X.XXX"
 - Puedes obtener tu **IP local** ejecutando:
   - `ipconfig` en **Windows**
   - `ifconfig` o `ip a` en **Linux/macOS**
+ 
+---
+
+## 🏆 Logros obtenidos
+
+- Comunicación efectiva cliente-servidor mediante **Sockets TCP**.
+- Intercambio de datos binarios (archivos) con flujo controlado.
+- Listado remoto de archivos desde el cliente Android.
+- Subida y descarga de archivos entre dispositivos heterogéneos.
+
+---
+
+## ⚠️ Limitaciones encontradas
+
+- 🔀 Diferencias entre **Java** y **Kotlin** dificultan la integración directa de estructuras de datos.
+- ⏳ Uso de **corutinas** en operaciones de red puede provocar errores si no se gestionan bien.
+- 📂 Problemas con flujos de datos: algunos archivos podían recibirse vacíos o con tamaños incorrectos.
+- 📱 Restricciones de almacenamiento en Android obligaron a usar **Scoped Storage** y APIs como `contentResolver.query()`.
+
+---
+
+## 💡 Propuestas de mejora
+
+- 📁 Organización de archivos por carpetas en el servidor.
+- 📶 Indicadores visuales de progreso en subida/descarga.
+- 🔐 Soporte para autenticación de cliente y acceso restringido.
+
+---
+
 
 🔗 [Repositorio Servidor Archivos (Frontend)](https://github.com/mariarosete/servidorArchivos/tree/main/front)
 
