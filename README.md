@@ -9,14 +9,13 @@ Incluye:
 - 🖥 Servidor en Java
 - 📱 Cliente Android en Kotlin
 - 📡 Comunicación en tiempo real en red local
-
 ---
-
 ## 🎥 Demo en vídeo
 
 Puedes ver el funcionamiento de la aplicación aquí:
 
 👉 https://mariarosete.vercel.app/assets/Servidor-I_unzXxa.mp4
+
 ---
 ## 🛠 Tecnologías utilizadas
 
