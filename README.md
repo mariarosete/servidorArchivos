@@ -109,7 +109,10 @@ private val ip = "XXX.XXX.X.XXX"
 - Puedes obtener tu **IP local** ejecutando:
   - `ipconfig` en **Windows**
   - `ifconfig` o `ip a` en **Linux/macOS**
- 
+
+ ---
+
+🔗 [Repositorio Servidor Archivos (Frontend)](https://github.com/mariarosete/servidorArchivos/tree/main/front)
 ---
 
 ## 🏆 Logros obtenidos
@@ -135,11 +138,6 @@ private val ip = "XXX.XXX.X.XXX"
 - 📁 Organización de archivos por carpetas en el servidor.
 - 📶 Indicadores visuales de progreso en subida/descarga.
 - 🔐 Soporte para autenticación de cliente y acceso restringido.
-
----
-
-
-🔗 [Repositorio Servidor Archivos (Frontend)](https://github.com/mariarosete/servidorArchivos/tree/main/front)
 
 ---
 
