@@ -110,8 +110,6 @@ private val ip = "XXX.XXX.X.XXX"
   - `ipconfig` en **Windows**
   - `ifconfig` o `ip a` en **Linux/macOS**
 
- ---
-
 🔗 [Repositorio Servidor Archivos (Frontend)](https://github.com/mariarosete/servidorArchivos/tree/main/front)
 ---
 
