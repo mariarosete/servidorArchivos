@@ -134,9 +134,9 @@ private val ip = "XXX.XXX.X.XXX"
 
 ## 💡 Propuestas de mejora
 
-- 📁 Organización de archivos por carpetas en el servidor.
-- 📶 Indicadores visuales de progreso en subida/descarga.
-- 🔐 Soporte para autenticación de cliente y acceso restringido.
+- Organización de archivos por carpetas en el servidor.
+- Indicadores visuales de progreso en subida/descarga.
+- Soporte para autenticación de cliente y acceso restringido.
 
 ---
 
