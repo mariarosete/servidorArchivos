@@ -125,10 +125,10 @@ private val ip = "XXX.XXX.X.XXX"
 
 ## ⚠️ Limitaciones encontradas
 
-- 🔀 Diferencias entre **Java** y **Kotlin** dificultan la integración directa de estructuras de datos.
-- ⏳ Uso de **corutinas** en operaciones de red puede provocar errores si no se gestionan bien.
-- 📂 Problemas con flujos de datos: algunos archivos podían recibirse vacíos o con tamaños incorrectos.
-- 📱 Restricciones de almacenamiento en Android obligaron a usar **Scoped Storage** y APIs como `contentResolver.query()`.
+- Diferencias entre **Java** y **Kotlin** dificultan la integración directa de estructuras de datos.
+- Uso de **corutinas** en operaciones de red puede provocar errores si no se gestionan bien.
+- Problemas con flujos de datos: algunos archivos podían recibirse vacíos o con tamaños incorrectos.
+- Restricciones de almacenamiento en Android obligaron a usar **Scoped Storage** y APIs como `contentResolver.query()`.
 
 ---
 
