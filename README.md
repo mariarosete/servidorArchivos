@@ -27,7 +27,7 @@ Puedes ver el funcionamiento de la aplicación aquí:
 
 ---
 
-## 🎯 Objetivo del proyecto
+## Objetivo del proyecto
 
 Implementar un sistema de gestión de archivos en red local mediante sockets TCP, conectando:
 
@@ -41,7 +41,7 @@ Funcionalidades principales:
 
 ---
 
-## 🚀 Funcionalidades destacadas
+## Funcionalidades destacadas
 
 - Listado dinámico de archivos en el servidor  
 - Descarga desde el cliente Android  
@@ -142,11 +142,11 @@ private val ip = "XXX.XXX.X.XXX"
 
 ## 📸 Capturas de pantalla
 
-| 🧾 Pantalla de inicio | 📁 Archivos disponibles |
+| Pantalla de inicio | Archivos disponibles |
 |----------------------|--------------------------|
 | ![Inicio](https://github.com/mariarosete/servidorArchivos/blob/main/screenshots/Inicio.png?raw=true) | ![Listado](https://github.com/mariarosete/servidorArchivos/blob/main/screenshots/Listado.png?raw=true) |
 
-| 📥 Descarga desde Spinner | 📤 Selección y subida |
+| Descarga desde Spinner | Selección y subida |
 |------------------------|---------------------------|
 | ![Spinner](https://github.com/mariarosete/servidorArchivos/blob/main/screenshots/spinner.png?raw=true) | ![Subida](https://github.com/mariarosete/servidorArchivos/blob/main/screenshots/Subida.png?raw=true) |
 
